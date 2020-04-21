@@ -1,1 +1,2 @@
-document.body.style.border = "5px solid green";
+const x = document. getElementsByClassName("entry-title");
+for (let e of x) { e.style.color = "green"; }
