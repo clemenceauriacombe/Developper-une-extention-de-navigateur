@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Developper un extion de navigateur",
+  "version": "1.0",
+
+  "description": "Colorier les balises h1 sites en vert, entourer toutes les images avec une bordure rouge, changer la taille de la font utilisée sur les sites mozilla.org.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["borderify.js"]
+    }
+  ]
+
+}
