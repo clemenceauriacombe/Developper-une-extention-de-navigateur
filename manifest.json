@@ -7,7 +7,7 @@
   "description": "Colorier les balises h1 sites en vert, entourer toutes les images avec une bordure rouge, changer la taille de la font utilisée sur les sites mozilla.org.",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/photo-icon.jpg"
   },
 
   "content_scripts": [
